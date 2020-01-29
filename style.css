@@ -1,0 +1,72 @@
+#google {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 180px;
+  }
+.leftlinks {
+    position: relative;
+    display: inline-block;
+    float: left;
+    font-size: 16px
+  }
+.rightlinks {
+    position: relative;
+    display: inline block;
+    float: right;
+    font-size: 16px;
+  }
+a:link {
+    color: blue;
+    text-decoration: none;
+  }
+a:visited {
+    color: purple;
+  }
+a:hover {
+    text-decoration: underline;
+  }
+.underlogo {
+    position: static;
+    display: block;
+    margin: auto;
+  }
+#srchbar {
+    position: relative;
+    display: flex;
+    margin: auto;  
+    top: 200px;
+    width: 450px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 1px solid rgb(228, 224, 224);
+    font-size: 16px;
+  }
+#srchbar:hover {
+    box-shadow: 0 1px 6px rgb(221, 220, 220);
+  }
+#srchbar:focus {
+    outline: none;
+  }
+.buttons {
+    position: relative;
+    display: block;
+    text-align: center;
+    top: 220px;
+  }
+#searchbutton {
+    position: relative;
+    width: 140px;
+    height: 25px;
+    margin: 5px;
+    text-align: center;
+  }
+#feelinglucky {
+    position: relative;
+    width: 140px;
+    height: 25px;
+    margin: 5px;
+    text-align: center;
+  }
